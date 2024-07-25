@@ -17,6 +17,7 @@ invoiceRouter.post('/invoice', async(req, res) => {
           }, { transaction: t });
 
           for (const item of product){
+            console.log(item)
             await ProductInvoice.create({
                 jumlah: item.jumlah,
                 createdAt: new Date(),
