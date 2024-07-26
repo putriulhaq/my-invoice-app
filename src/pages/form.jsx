@@ -82,8 +82,8 @@ const FormInvoice = () => {
 
     
     return <>
-        <h1 className="text-2xl font-bold mb-4">New Invoice</h1>
         <form onSubmit={handleSubmit} className="w-full max-w-sm">
+        <h1 className="text-2xl font-bold mb-4">New Invoice</h1>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label className={labelClass}>
